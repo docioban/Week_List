@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52097A1F257ADB3D00087346 /* AddSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A1E257ADB3D00087346 /* AddSubjectViewController.swift */; };
+		52097A2D257B1EB300087346 /* CreatePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A2C257B1EB300087346 /* CreatePasswordViewController.swift */; };
+		52097A33257B667400087346 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A31257B667400087346 /* KeychainItemAccessibility.swift */; };
+		52097A34257B667500087346 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A32257B667400087346 /* KeychainWrapper.swift */; };
+		52097A3D257C03C100087346 /* SubjectsTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A3C257C03C100087346 /* SubjectsTasksViewController.swift */; };
+		52097A40257C05AA00087346 /* SubjectTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A3F257C05AA00087346 /* SubjectTaskTableViewCell.swift */; };
+		52097A43257C071D00087346 /* Tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 52097A42257C071D00087346 /* Tasks.json */; };
+		52097A4A257C1E1C00087346 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A49257C1E1C00087346 /* Tasks.swift */; };
+		52097A4D257C1E5F00087346 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A4C257C1E5F00087346 /* Task.swift */; };
+		52097A50257C206800087346 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A4F257C206800087346 /* Object.swift */; };
+		52097A53257C288200087346 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A52257C288200087346 /* TasksViewController.swift */; };
+		52097A56257C293400087346 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A55257C293400087346 /* TaskTableViewCell.swift */; };
+		52097A59257C3E1600087346 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52097A58257C3E1600087346 /* NewTaskViewController.swift */; };
+		5258AD0225789A3400A8DFC2 /* SettingsColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258AD0125789A3400A8DFC2 /* SettingsColorsViewController.swift */; };
+		525C965C2572A85100B2421D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C965B2572A85100B2421D /* AppDelegate.swift */; };
+		525C965E2572A85100B2421D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C965D2572A85100B2421D /* SceneDelegate.swift */; };
+		525C96632572A85100B2421D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525C96612572A85100B2421D /* Main.storyboard */; };
+		525C96652572A85500B2421D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525C96642572A85500B2421D /* Assets.xcassets */; };
+		525C96682572A85500B2421D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525C96662572A85500B2421D /* LaunchScreen.storyboard */; };
+		525C96782573A4FD00B2421D /* Days.json in Resources */ = {isa = PBXBuildFile; fileRef = 525C96772573A4FD00B2421D /* Days.json */; };
+		525C96832573A89000B2421D /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C96822573A89000B2421D /* Day.swift */; };
+		525C96862573A89B00B2421D /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C96852573A89B00B2421D /* Subject.swift */; };
+		525C96892573A8B000B2421D /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C96882573A8B000B2421D /* Time.swift */; };
+		525C968D2573ACF800B2421D /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C968C2573ACF800B2421D /* Days.swift */; };
+		525C96A22574F97100B2421D /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C96A12574F97100B2421D /* SubjectsViewController.swift */; };
+		525C96A62574FC6B00B2421D /* SubjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C96A52574FC6B00B2421D /* SubjectTableViewCell.swift */; };
+		525C96AD25750D0400B2421D /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C96AC25750D0400B2421D /* DaysViewController.swift */; };
+		525C96B12575104F00B2421D /* DayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C96B02575104F00B2421D /* DayTableViewCell.swift */; };
+		52E5D75225762C16007EF332 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E5D75125762C16007EF332 /* Colors.xcassets */; };
+		52E5D75725765263007EF332 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E5D75625765263007EF332 /* Color.swift */; };
+		52F2724825758DDE007AA107 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2724725758DDE007AA107 /* SettingsViewController.swift */; };
+		52F2724C2575A982007AA107 /* SettingsDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2724B2575A982007AA107 /* SettingsDaysViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52097A1E257ADB3D00087346 /* AddSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubjectViewController.swift; sourceTree = "<group>"; };
+		52097A2C257B1EB300087346 /* CreatePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordViewController.swift; sourceTree = "<group>"; };
+		52097A31257B667400087346 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		52097A32257B667400087346 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		52097A3C257C03C100087346 /* SubjectsTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsTasksViewController.swift; sourceTree = "<group>"; };
+		52097A3F257C05AA00087346 /* SubjectTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTaskTableViewCell.swift; sourceTree = "<group>"; };
+		52097A42257C071D00087346 /* Tasks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tasks.json; sourceTree = "<group>"; };
+		52097A49257C1E1C00087346 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		52097A4C257C1E5F00087346 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		52097A4F257C206800087346 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		52097A52257C288200087346 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		52097A55257C293400087346 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		52097A58257C3E1600087346 /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		5258AD0125789A3400A8DFC2 /* SettingsColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsColorsViewController.swift; sourceTree = "<group>"; };
+		525C96582572A85100B2421D /* Week List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525C965B2572A85100B2421D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525C965D2572A85100B2421D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		525C96622572A85100B2421D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525C96642572A85500B2421D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525C96672572A85500B2421D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525C96692572A85500B2421D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525C96772573A4FD00B2421D /* Days.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Days.json; sourceTree = "<group>"; };
+		525C96822573A89000B2421D /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		525C96852573A89B00B2421D /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		525C96882573A8B000B2421D /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		525C968C2573ACF800B2421D /* Days.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Days.swift; sourceTree = "<group>"; };
+		525C96A12574F97100B2421D /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		525C96A52574FC6B00B2421D /* SubjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTableViewCell.swift; sourceTree = "<group>"; };
+		525C96AC25750D0400B2421D /* DaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		525C96B02575104F00B2421D /* DayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewCell.swift; sourceTree = "<group>"; };
+		52E5D75125762C16007EF332 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		52E5D75625765263007EF332 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		52F2724725758DDE007AA107 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		52F2724B2575A982007AA107 /* SettingsDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDaysViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525C96552572A85100B2421D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52097A30257B665100087346 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				52097A31257B667400087346 /* KeychainItemAccessibility.swift */,
+				52097A32257B667400087346 /* KeychainWrapper.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		52097A39257C037C00087346 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				52097A52257C288200087346 /* TasksViewController.swift */,
+				52097A55257C293400087346 /* TaskTableViewCell.swift */,
+				52097A58257C3E1600087346 /* NewTaskViewController.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		52097A3B257C03A100087346 /* SubjectsTasks */ = {
+			isa = PBXGroup;
+			children = (
+				52097A3C257C03C100087346 /* SubjectsTasksViewController.swift */,
+				52097A3F257C05AA00087346 /* SubjectTaskTableViewCell.swift */,
+			);
+			path = SubjectsTasks;
+			sourceTree = "<group>";
+		};
+		52097A47257C1D7400087346 /* task */ = {
+			isa = PBXGroup;
+			children = (
+				52097A49257C1E1C00087346 /* Tasks.swift */,
+				52097A4C257C1E5F00087346 /* Task.swift */,
+				52097A4F257C206800087346 /* Object.swift */,
+			);
+			path = task;
+			sourceTree = "<group>";
+		};
+		52097A48257C1D8B00087346 /* subject */ = {
+			isa = PBXGroup;
+			children = (
+				525C96822573A89000B2421D /* Day.swift */,
+				525C96852573A89B00B2421D /* Subject.swift */,
+				525C96882573A8B000B2421D /* Time.swift */,
+				525C968C2573ACF800B2421D /* Days.swift */,
+			);
+			path = subject;
+			sourceTree = "<group>";
+		};
+		525C964F2572A85100B2421D = {
+			isa = PBXGroup;
+			children = (
+				525C965A2572A85100B2421D /* Week List */,
+				525C96592572A85100B2421D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525C96592572A85100B2421D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525C96582572A85100B2421D /* Week List.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525C965A2572A85100B2421D /* Week List */ = {
+			isa = PBXGroup;
+			children = (
+				52097A3B257C03A100087346 /* SubjectsTasks */,
+				52097A39257C037C00087346 /* Tasks */,
+				52097A30257B665100087346 /* Keychain */,
+				52E5D75525765250007EF332 /* Colors */,
+				52F2724A2575A962007AA107 /* Settings */,
+				525C96A9257508AA00B2421D /* DaysView */,
+				525C96A82575088F00B2421D /* SubjectsView */,
+				525C968B2573A8EE00B2421D /* Structs */,
+				525C965B2572A85100B2421D /* AppDelegate.swift */,
+				525C965D2572A85100B2421D /* SceneDelegate.swift */,
+				525C96612572A85100B2421D /* Main.storyboard */,
+				525C96642572A85500B2421D /* Assets.xcassets */,
+				525C96662572A85500B2421D /* LaunchScreen.storyboard */,
+				525C96692572A85500B2421D /* Info.plist */,
+				525C96772573A4FD00B2421D /* Days.json */,
+				52097A42257C071D00087346 /* Tasks.json */,
+			);
+			path = "Week List";
+			sourceTree = "<group>";
+		};
+		525C968B2573A8EE00B2421D /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				52097A48257C1D8B00087346 /* subject */,
+				52097A47257C1D7400087346 /* task */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		525C96A82575088F00B2421D /* SubjectsView */ = {
+			isa = PBXGroup;
+			children = (
+				52097A1E257ADB3D00087346 /* AddSubjectViewController.swift */,
+				525C96A12574F97100B2421D /* SubjectsViewController.swift */,
+				525C96A52574FC6B00B2421D /* SubjectTableViewCell.swift */,
+			);
+			path = SubjectsView;
+			sourceTree = "<group>";
+		};
+		525C96A9257508AA00B2421D /* DaysView */ = {
+			isa = PBXGroup;
+			children = (
+				525C96B02575104F00B2421D /* DayTableViewCell.swift */,
+				525C96AC25750D0400B2421D /* DaysViewController.swift */,
+			);
+			path = DaysView;
+			sourceTree = "<group>";
+		};
+		52E5D75525765250007EF332 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				52E5D75125762C16007EF332 /* Colors.xcassets */,
+				52E5D75625765263007EF332 /* Color.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		52F2724A2575A962007AA107 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				52097A2C257B1EB300087346 /* CreatePasswordViewController.swift */,
+				52F2724725758DDE007AA107 /* SettingsViewController.swift */,
+				52F2724B2575A982007AA107 /* SettingsDaysViewController.swift */,
+				5258AD0125789A3400A8DFC2 /* SettingsColorsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525C96572572A85100B2421D /* Week List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525C966C2572A85600B2421D /* Build configuration list for PBXNativeTarget "Week List" */;
+			buildPhases = (
+				525C96542572A85100B2421D /* Sources */,
+				525C96552572A85100B2421D /* Frameworks */,
+				525C96562572A85100B2421D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week List";
+			productName = "Week List";
+			productReference = 525C96582572A85100B2421D /* Week List.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525C96502572A85100B2421D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					525C96572572A85100B2421D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 525C96532572A85100B2421D /* Build configuration list for PBXProject "Week List" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525C964F2572A85100B2421D;
+			productRefGroup = 525C96592572A85100B2421D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525C96572572A85100B2421D /* Week List */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525C96562572A85100B2421D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E5D75225762C16007EF332 /* Colors.xcassets in Resources */,
+				525C96682572A85500B2421D /* LaunchScreen.storyboard in Resources */,
+				52097A43257C071D00087346 /* Tasks.json in Resources */,
+				525C96652572A85500B2421D /* Assets.xcassets in Resources */,
+				525C96782573A4FD00B2421D /* Days.json in Resources */,
+				525C96632572A85100B2421D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525C96542572A85100B2421D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52097A2D257B1EB300087346 /* CreatePasswordViewController.swift in Sources */,
+				525C96A22574F97100B2421D /* SubjectsViewController.swift in Sources */,
+				52097A53257C288200087346 /* TasksViewController.swift in Sources */,
+				525C965C2572A85100B2421D /* AppDelegate.swift in Sources */,
+				52097A34257B667500087346 /* KeychainWrapper.swift in Sources */,
+				52097A4D257C1E5F00087346 /* Task.swift in Sources */,
+				525C96AD25750D0400B2421D /* DaysViewController.swift in Sources */,
+				52097A1F257ADB3D00087346 /* AddSubjectViewController.swift in Sources */,
+				52097A4A257C1E1C00087346 /* Tasks.swift in Sources */,
+				525C96A62574FC6B00B2421D /* SubjectTableViewCell.swift in Sources */,
+				525C96892573A8B000B2421D /* Time.swift in Sources */,
+				525C96832573A89000B2421D /* Day.swift in Sources */,
+				525C96862573A89B00B2421D /* Subject.swift in Sources */,
+				52097A56257C293400087346 /* TaskTableViewCell.swift in Sources */,
+				5258AD0225789A3400A8DFC2 /* SettingsColorsViewController.swift in Sources */,
+				52097A40257C05AA00087346 /* SubjectTaskTableViewCell.swift in Sources */,
+				52F2724C2575A982007AA107 /* SettingsDaysViewController.swift in Sources */,
+				52097A33257B667400087346 /* KeychainItemAccessibility.swift in Sources */,
+				525C96B12575104F00B2421D /* DayTableViewCell.swift in Sources */,
+				52E5D75725765263007EF332 /* Color.swift in Sources */,
+				52097A3D257C03C100087346 /* SubjectsTasksViewController.swift in Sources */,
+				52097A59257C3E1600087346 /* NewTaskViewController.swift in Sources */,
+				525C968D2573ACF800B2421D /* Days.swift in Sources */,
+				525C965E2572A85100B2421D /* SceneDelegate.swift in Sources */,
+				52097A50257C206800087346 /* Object.swift in Sources */,
+				52F2724825758DDE007AA107 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		525C96612572A85100B2421D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525C96622572A85100B2421D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525C96662572A85500B2421D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525C96672572A85500B2421D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525C966A2572A85500B2421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525C966B2572A85500B2421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525C966D2572A85600B2421D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Week List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy42.Week-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		525C966E2572A85600B2421D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Week List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy42.Week-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525C96532572A85100B2421D /* Build configuration list for PBXProject "Week List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525C966A2572A85500B2421D /* Debug */,
+				525C966B2572A85500B2421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525C966C2572A85600B2421D /* Build configuration list for PBXNativeTarget "Week List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525C966D2572A85600B2421D /* Debug */,
+				525C966E2572A85600B2421D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525C96502572A85100B2421D /* Project object */;
+}

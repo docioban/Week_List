@@ -1,0 +1,149 @@
+{
+    "days": [
+        {
+            "name": "Sunday",
+            "appear": true,
+            "color": "green",
+            "subjects": [
+                {
+                    "subject": "Maths",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                },
+                {
+                    "subject": "Rom",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                }
+            ]
+        },
+         {
+             "name": "Monday",
+             "appear": true,
+            "color": "green",
+            "subjects": [
+                {
+                    "subject": "Maths",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                }
+            ]
+        },
+        {
+             "name": "Thusday",
+             "appear": true,
+            "color": "green",
+            "subjects": [
+                {
+                    "subject": "Maths",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                }
+            ]
+        },
+        {
+              "name": "Wednseday",
+              "appear": true,
+            "color": "green",
+            "subjects": [
+                {
+                    "subject": "Maths",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                }
+            ]
+        },
+        {
+                 "name": "Thursday",
+                 "appear": true,
+            "color": "green",
+            "subjects": [
+                {
+                    "subject": "Maths",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                }
+            ]
+        },
+        {
+              "name": "Friday",
+              "appear": true,
+            "color": "green",
+            "subjects": [
+                {
+                    "subject": "Maths",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                }
+            ]
+        },
+        {
+             "name": "Satuday",
+             "appear": true,
+            "color": "green",
+            "subjects": [
+                {
+                    "subject": "Maths",
+                    "info": "some information",
+                    "timeBegin": {
+                        "hour": 8,
+                        "minutes": 10
+                    },
+                    "timeEnd": {
+                        "hour": 9,
+                        "minutes": 30
+                    }
+                }
+            ]
+        }
+    ]
+}
